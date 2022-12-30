@@ -1,0 +1,13 @@
+@import "./var";
+
+@mixin cardStyles($params){
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 2rem;
+    color: $text-color;
+    background-color: $card-bg-color;
+    box-shadow: $params;
+}
+
+// rgba(0, 0, 0, 0.16) 0px 1px 4px;

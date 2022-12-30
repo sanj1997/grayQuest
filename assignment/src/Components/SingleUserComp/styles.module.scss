@@ -1,0 +1,9 @@
+@import "../../Styles/Partials/mixins";
+@import "../../Styles/Partials/var";
+.card{
+    width: 50%;
+    margin: auto;
+    padding: 2rem;
+    margin-top: 5rem;
+    @include cardStyles($card-box-shadow)
+}
