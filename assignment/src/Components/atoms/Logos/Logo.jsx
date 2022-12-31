@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from "../Logos/styles.module.scss"
+import styles from "./styles.module.scss"
 import {AiFillGithub} from "react-icons/ai"
 const Logo = () => {
   return (

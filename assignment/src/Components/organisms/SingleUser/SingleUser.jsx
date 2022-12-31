@@ -6,7 +6,7 @@ import { getSingleUser } from "../../../Store/users/usersSlice";
 import Heading from "../../atoms/Headings/Heading";
 import Loader from "../../atoms/Loader/Loader";
 import Text from "../../atoms/Texts/Text";
-import styles from "../SingleUser/styles.module.scss"
+import styles from "./styles.module.scss"
 const SingleUser = () => {
   const params = useParams();
   const dispatch = useDispatch();

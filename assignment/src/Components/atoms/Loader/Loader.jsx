@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from "../Loader/styles.module.scss"
+import styles from "./styles.module.scss"
 const Loader = () => {
   return (
     <div className={styles.container}>

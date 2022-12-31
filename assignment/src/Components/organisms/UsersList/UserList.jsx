@@ -3,7 +3,7 @@ import { useEffect } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 import { getUsers } from '../../../Store/users/usersSlice'
 import UserCard from '../../molecules/UserCard/UserCard'
-import styles from "../UsersList/styles.module.scss"
+import styles from "./styles.module.scss"
 import Loader from "../../atoms/Loader/Loader"
 const UserList = () => {
   const dispatch=useDispatch()
