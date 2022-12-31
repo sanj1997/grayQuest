@@ -3,7 +3,7 @@
 .navbar{
     box-shadow:$navbar-box-shadow;
     display: flex;
-    justify-content: start;
+    justify-content: flex-start;
     padding: 0.8rem;
     align-items: center;
     background-color: $navbar-bg-color;

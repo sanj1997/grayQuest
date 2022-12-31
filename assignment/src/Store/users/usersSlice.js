@@ -1,6 +1,7 @@
 import {createSlice,createAsyncThunk} from "@reduxjs/toolkit"
 import axios from "axios"
-
+const BASE_URL=process.env.REACT_APP_URL
+console.log(BASE_URL,"hey")
 const initialSate={
     loading:false,
     users:[],
@@ -12,7 +13,7 @@ export const getUsers=createAsyncThunk(
     "users/getUsers",
     async(thunkapi)=>{
         try{
-           const res=await axios("https://jsonplaceholder.typicode.com/users")
+           const res=await axios(`${BASE_URL}/users`)
            return res.data
         }catch(e){
             return thunkapi.rejectWithValue(e.message);
@@ -24,7 +25,7 @@ export const getSingleUser=createAsyncThunk(
     "users/getSingleUser",
     async(id,thunkapi)=>{
        try{
-         const res=await axios(`https://jsonplaceholder.typicode.com/users/${id}`)
+         const res=await axios(`${BASE_URL}/users/${id}`)
          console.log(res.data)
          return res.data
        }catch(e){
