@@ -1,0 +1,5 @@
+@import "../../../Styles/Partials/mixins";
+@import "../../../Styles/Partials/var";
+.card{
+    @include cardStyles($card-box-shadow);
+}

@@ -1,5 +1,5 @@
 import React from 'react'
-import UserList from '../Components/UsersListComp/UserList'
+import UserList from '../Components/organisms/UsersList/UserList'
 
 const HomePage = () => {
   return (

@@ -1,0 +1,10 @@
+@import "../../../Styles/Partials/var";
+
+.navbar{
+    box-shadow:$navbar-box-shadow;
+    display: flex;
+    justify-content: start;
+    padding: 0.8rem;
+    align-items: center;
+    background-color: $navbar-bg-color;
+}

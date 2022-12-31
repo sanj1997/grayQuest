@@ -1,6 +1,6 @@
 import './App.scss';
 import AllRoutes from './Routes/AllRoutes';
-import Navbar from './Components/Navbar/Navbar';
+import Navbar from './Components/organisms/Navbar/Navbar';
 function App() {
  
   return (

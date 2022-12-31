@@ -1,5 +1,5 @@
 import React from 'react'
-import SingleUser from '../Components/SingleUserComp/SingleUser'
+import SingleUser from '../Components/organisms/SingleUser/SingleUser'
 
 const SingleUserPage = () => {
   return (

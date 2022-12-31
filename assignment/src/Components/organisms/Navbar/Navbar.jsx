@@ -1,11 +1,11 @@
 import React from 'react'
 import {Link} from "react-router-dom"
+import Logo from '../../atoms/Logos/Logo'
 import styles from "../Navbar/styles.module.scss"
 const Navbar = () => {
   return (
     <div className={styles.navbar}>
-        <h1>GitHub Users</h1>
-        <Link style={{"textDecoration":"none","color":"black"}} to={"/"}><h2>Home</h2></Link>
+        <Link style={{"textDecoration":"none","color":"black"}} to={"/"}><Logo/></Link>
     </div>
   )
 }
