@@ -8,7 +8,6 @@ import Loader from "../../atoms/Loader/Loader"
 const UserList = () => {
   const dispatch=useDispatch()
   const {users,loading}=useSelector((store)=>store.users)
-  console.log(users)
   useEffect(()=>{
     dispatch(getUsers())
   },[])
