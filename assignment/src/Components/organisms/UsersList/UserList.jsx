@@ -13,11 +13,13 @@ const UserList = () => {
     dispatch(getUsers())
   },[])
   return (
-    <div className={styles.container}>
-      {!loading?users?.map((el)=>{
+    <>
+    {!loading?<div className={styles.container}>
+      {users?.map((el)=>{
         return <UserCard key={el.id} data={el}/>
-      }):<Loader/>}
-    </div>
+      })}
+    </div>:<Loader/>}
+    </>
   )
 }
 
